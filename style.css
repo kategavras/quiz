@@ -1,0 +1,89 @@
+body {
+    font-family: 'Impact';
+    font-family: 'Gowa' bold;
+    font-size: 20px;
+    color: #023909;
+    background-color: #285943;
+    align-self: center;
+}
+
+.quiz {
+    margin: 20px auto;
+    padding: 18px;
+    width: 800px;
+    background-color: #8acba8;
+    height: 700px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.header {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+  }
+
+.title {
+    font-size: 35px;
+    font-family: 'Impact';
+    margin: 0 auto 15px;
+    padding: 20px;
+    color: #023909;
+}
+
+.text {
+    font-size: 18px;
+    font-family: 'Gowa'bold;
+    font-weight: 500;
+    color: #023909;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 62px;
+    border: 3px solid #0b4813;
+    color: #083512;
+    margin-bottom: 20px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.correct {   
+    align-self: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background: #174a179a;
+    width: 800px;
+    height: 60px;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    color: #8acba8;
+}
+
+.wrong {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background: #a5573d9a;
+    width: 800px;
+    height: 60px;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    color: #77ab90;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
+
+

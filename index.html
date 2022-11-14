@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="quiz">
+            <div class="header">
+                <h2 class="title">Яка машина зображена на картинці?</h2>
+                <div clsss="img">
+                    <img src="photo.jpg" width="370px" height="370px"  alt="">
+                </div>
+        <div class="text">  
+            <p><input type="radio" name="year" id="y1">Chevrolet Corvette C5</p>
+            <p><input type="radio" name="year" id="y2">Ford Probe</p>
+            <p><input type="radio" name="year" id="y3">Mazda MX-5</p>
+            <p><input type="radio" name="year" id="y4">Honda NSX</p>
+        </div>
 
+        <p class="btn" id="btn">Відповісти</p>
+            <p class="correct hidden" id="correct"> <b>Ого, ти молодець!</p>
+        
+            <div class="wrong_box hidden" id="wrong_box"> 
+                <p class="wrong" id="wrong"> Ні! Ти не вгадав( </p>
+                <button id = "btn1">Подивитись відповідь</button>
+            </div>
+
+            <p id="answer" class = "hidden">Правильна відповідь: Mazda MX-5</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
